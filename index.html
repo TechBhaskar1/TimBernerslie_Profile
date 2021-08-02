@@ -1,17 +1,37 @@
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Tim Berners Lee</title>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <ul class="menu">
-            <li class="link">Home</li>
-            <li class="link">My Videos</li>
-            <li class="link">Work</li>
-            <li class="link">Writings</li>
-            <li class="link">About</li>
-        </ul>
+        <nav class="navbar-inverse" style="position:sticky;top:0; z-index: index 9999999">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Tim Berners Lee</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav">
+                    <li class="link"><a href="#welcome">Home</a></Home></li>
+                    <li class="link"><a href="#bio">About</a></li>
+                    <li class="link"><a href="#Work">Work</a></li>
+                    <li class="link"><a href="#Writings">Writings</a></li>
+                    <li class="link"><a href="#Videos"> Videos</a></li>
+                    <li class="link"><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
         <section id="welcome">
             <div  class="Header">
                 <img id="album" src="p025m2fq.jpg">
@@ -30,5 +50,48 @@
             </p>
 
         </section>
-    </body>
+        
+        <section id="Work">
+            <h1>Work!</h1>
+            <div class="line"></div>
+            <br>
+        <iframe height="1000px" width="900px" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research"></iframe>    
+        </section>
+    
+        <section id="Writings">
+            <h1>Writing!</h1>
+            <div class="line"></div>
+            <br>
+        <a target="_blank" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web">How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
+        <br><br>
+        <a target="_blank" href="https://webfoundation.org/2019/03/web-birthday-30/https://webfoundation.org/2019/03/web-birthday-30/">30 years on, what’s next #ForTheWeb?</a>
+    </section>
+
+    <section id="Videos">
+        <h1>Videos!</h1>
+        <div class="line"></div>
+        <br>
+        <iframe width="850" height="480" src="https://www.youtube.com/embed/OM6XIICm_qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+    <br>
+    <br>
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/rCplocVemjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="Contact">
+        <br>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317713.1006240724!2d-0.38178570084498087!3d51.52910939260595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876058405776dd3%3A0x7c8e9a1026bdc8fe!2sConcern%20Worldwide%20(UK)!5e0!3m2!1sen!2sin!4v1618304623499!5m2!1sen!2sin" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        <div id="row2">
+            <a href="mailto:team-liaisons@w3.org?Subject=Hello">
+                <i class="far fa-envelope"></i>&nbsp;&nbsp;<h3> team-liaisons@w3.org </h3>
+            </a><br>
+
+            <a href="https://www.instagram.com/worldwideweb/?hl=en">
+                <i class="fab fa-instagram"></i>&nbsp;&nbsp;<h3> @worldwideweb </h3>
+            </a>
+        </div>  
+    </section>
+</body>
+
 </html>

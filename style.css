@@ -1,15 +1,8 @@
 body{
-    margin:0;
-    padding-top:800px;
+    text-align: center;
 }
 #welcome{
-    position:absolute;
-    overflow:hidden;
-    height:800px;
     color:white;
-    left:0;
-    right:0;
-    top:0;
     bottom:0;
     opacity:0.75;
     background:linear-gradient(rgb(250, 12, 12) 0%,rgb(255, 179, 2) 100%);
@@ -19,11 +12,9 @@ body{
     z-index: 1;
 }
 .Header{
-    display:table-cell;
-    position: relative;
     text-align:center;
     vertical-align:middle;
-    padding-top: 100px;
+    padding:50px;
 }
 #album{
     width:200px;
@@ -61,25 +52,44 @@ h2{
 .heading{
     font-family:Lobster;
 }
-.menu{
-    list-style: none;
-    position:absolute;
-    top:10px ;
-    right:30px;
-    z-index:2;
-    cursor:pointer;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 .link{
-    float: left;
-    color:white;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top: 5px;
-    padding-bottom:5px;
+    display: inline;
+    padding-left:30px;
+    padding-right:30px;
     font-family:Britannic;
-    font-size: 25px;
+    font-size: 30px;
 }
 .link:hover{
-    background-color: darkcyan;
+    font-size: 35px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px rgb(192, 189, 189) ;
+}
+#Writings a{
+    text-decoration: underline !important;
+    color: rgb(20, 167, 204) !important;
+    text-shadow:none !important;
+}
+#contact{
+    background: rgb(243, 161, 85);
+    height: 600px;
+    margin-top:20px;
+}
+#contact iframe{
+    width: 100%;
+}
+#row2 h3{
+    font-size:25px;
+    display: inline;
+}
+#row2 a{
+    text-shadow: none;
+    color: white;
+}
+#row2{
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
